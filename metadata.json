@@ -1,0 +1,6 @@
+{
+  "name": "New York & Los Angeles Roleplay Bot Hub",
+  "description": "Production Discord.js v14 ER:LC roleplay automation bot with modular command handlers, anti-ping auto-moderation, Bloxlink Roblox verification, Groq AI ticket assistance, training notices, and 100 dual prefix/slash commands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
