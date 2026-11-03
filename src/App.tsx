@@ -15,9 +15,9 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<'simulator' | 'code' | 'commands' | 'music' | 'banners' | 'prompt'>('simulator');
 
   const navigationTabs = [
-    { id: 'simulator', label: 'Discord Simulator', icon: MessageSquare, badge: 'Live Demo' },
-    { id: 'code', label: 'Modular Code & Handlers', icon: Folder, badge: 'Architecture' },
-    { id: 'commands', label: '100 Commands Directory', icon: Terminal, badge: 'Dual Prefix & Slash' },
+    { id: 'simulator', label: 'Discord Simulator', icon: MessageSquare, badge: 'Web UI Preview' },
+    { id: 'code', label: 'Standalone Bot (/discord-bot)', icon: Folder, badge: 'Real Node.js Bot' },
+    { id: 'commands', label: 'Commands & Roadmap', icon: Terminal, badge: 'Active & Roadmap' },
     { id: 'music', label: 'Voice Audio & 25 Filters', icon: Music, badge: 'FFmpeg' },
     { id: 'banners', label: 'Banners System', icon: Image, badge: 'Top & Bottom' },
     { id: 'prompt', label: 'Master Prompt', icon: FileText, badge: 'Export' },

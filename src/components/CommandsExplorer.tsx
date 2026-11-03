@@ -56,19 +56,19 @@ export const CommandsExplorer: React.FC = () => {
       <div className="bg-[#1e1f22] border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <div className="flex flex-wrap items-center gap-2 mb-2">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-500/20 text-emerald-300 rounded-full text-xs font-semibold border border-emerald-500/30">
+              <Terminal className="w-3.5 h-3.5" /> 16 Core Commands Active on Disk
+            </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-xs font-semibold border border-cyan-500/30">
-              <Terminal className="w-3.5 h-3.5" /> 100 Prefix Commands (!)
+              <Slash className="w-3.5 h-3.5" /> Single Source of Truth
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs font-semibold border border-purple-500/30">
-              <Slash className="w-3.5 h-3.5" /> 100 Slash Commands (/)
-            </span>
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-500/20 text-emerald-300 rounded-full text-xs font-semibold border border-emerald-500/30">
-              ✓ Dual Engine Active
+              Roadmap Specs Included
             </span>
           </div>
-          <h2 className="text-2xl font-black text-white tracking-tight">Command Encyclopedia & Dual (Prefix + Slash) Simulator</h2>
+          <h2 className="text-2xl font-black text-white tracking-tight">Commands Directory & System Capabilities</h2>
           <p className="text-slate-300 text-xs sm:text-sm mt-1 max-w-2xl">
-            Every command supports both <b>prefix invocation</b> (<code>!command</code>) and native Discord <b>Slash Commands</b> (<code>/command</code>) with autocomplete, option validation, and direct message (DM) dispatch.
+            Core commands are implemented on disk in <code className="text-emerald-400 font-mono">discord-bot/src/commands/</code> with dual prefix and slash execution. Advanced ecosystem commands are documented below with their architectural specifications and permissions requirements.
           </p>
         </div>
 

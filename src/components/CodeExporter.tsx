@@ -95,10 +95,11 @@ export const CodeExporter: React.FC = () => {
               <ShieldCheck className="w-3.5 h-3.5" /> Isolated Error Containment
             </span>
           </div>
-          <h2 className="text-2xl font-black text-white tracking-tight">Discord.js v14 Modular Source Repository</h2>
+          <h2 className="text-2xl font-black text-white tracking-tight">Discord.js v14 Standalone Bot & Modular Code</h2>
           <p className="text-slate-300 text-xs sm:text-sm mt-1 max-w-2xl">
-            Every prefix command and slash command is placed into its own file inside <code className="text-cyan-300 bg-slate-900/80 px-1.5 py-0.5 rounded">src/commands/&lt;category&gt;/&lt;cmd&gt;.js</code>. 
-            All routing is managed by dedicated handlers in <code className="text-purple-300 bg-slate-900/80 px-1.5 py-0.5 rounded">src/handlers/</code> so errors are caught instantly and never crash the bot!
+            The standalone, runnable Discord bot is located directly on disk inside <code className="text-emerald-400 bg-slate-900/80 px-1.5 py-0.5 rounded font-mono font-bold">discord-bot/</code> with its own <code className="text-cyan-300">package.json</code>, <code className="text-cyan-300">index.js</code>, and <code className="text-cyan-300">npm run deploy</code> script.
+            Every command is isolated into <code className="text-cyan-300 bg-slate-900/80 px-1.5 py-0.5 rounded">discord-bot/src/commands/&lt;category&gt;/&lt;cmd&gt;.js</code>. 
+            All routing is managed by dedicated handlers in <code className="text-purple-300 bg-slate-900/80 px-1.5 py-0.5 rounded">discord-bot/src/handlers/</code> so errors are isolated and never crash the bot!
           </p>
         </div>
 
